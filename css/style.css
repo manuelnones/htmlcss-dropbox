@@ -106,11 +106,11 @@ header #header-container #contents-container .header-img{
 main #central-container{
     max-width: 800px;
     margin: auto;
-    padding-top: 100px;
 }
 
 main #central-container h2{
     padding-bottom: 40px;
+    padding-top: 100px;
 }
 
 main #central-container .billing{
@@ -131,7 +131,7 @@ main #central-container #cards-container .card{
     width: 30%;
 }
 
-main #central-container .enterprise-container{
+main #central-container #enterprise-container{
     height: 200px;
     background-color: violet;
 /* /test */
@@ -139,24 +139,38 @@ main #central-container .enterprise-container{
     width: 100%;
 }
 
-main #central-container .search-partner-container{
+main #central-container #search-partner-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 100px;
 }
 
-main #central-container .search-partner-container .img-search-partner{
+main #central-container #search-partner-container .img-search-partner{
     height: 400px;
     background-color: bisque;
 /* /test */
     width: 60%;
 }
 
-main #central-container .search-partner-container .text-search-partner{
+main #central-container #search-partner-container .text-search-partner{
     height: 300px;
     background-color: rebeccapurple;
 /* /test */
     width: 35%;
+}
+
+main #central-container #dropbox-business-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main #central-container #dropbox-business-container .options-dropbox-business{
+    height: 300px;
+    background-color: darkorange;
+/* /test */
+    width: 30%;
+    margin-bottom: 50px;
 }
 /* /main */
