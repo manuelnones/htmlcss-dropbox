@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.blue-button{
+    background-color: #0061ff;
+    color: #ffffff;
+    padding: 5px 10px;
+    border: none;
+}
+
+/* nav-bar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 3;
+    height: 60px;
+    padding-right: 10px;
+    background-color: white;
+}
+
+nav .nav-left {
+    display: flex;
+    padding-left: 20px;
+}
+nav .nav-left #logo-dropbox{
+    padding-top: 5px;
+    padding-right: 20px;
+}
+
+nav .nav-left a{
+    padding-top: 10px;
+    padding-left: 20px;
+    text-decoration: none;
+    color: gray;
+}
+
+nav .nav-right {
+    padding-right: 20px;
+}
+
+nav .nav-right a{
+    padding-left: 20px;
+    text-decoration: none;
+    color: gray;
+}
+
+nav .nav-right button{
+    margin-left: 10px;
+}
+/* /nav-bar */
+
+
+/* header */
+
+header{
+    margin-top: 60px;
+    background-color: #b4d0e7;
+}
+
+header #header-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header #header-container .title{
+    width: 800px;
+    height: 100px;
+    background-color: orange;
+    /* /test */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+header #header-container #contents-container{
+    display: flex;
+    margin-top: 50px;
+}
+
+header #header-container #contents-container .header-contents{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+/* /test */
+}
+
+header #header-container #contents-container .header-img{
+    width: 500px;
+    height: 300px;
+    background-color: green;
+/* /test */
+}
