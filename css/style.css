@@ -72,7 +72,7 @@ header #header-container{
 }
 
 header #header-container .title{
-    width: 900px;
+    min-width: 900px;
     height: 100px;
     background-color: orange;
     /* /test */
@@ -110,7 +110,7 @@ main #central-container{
 }
 
 main #central-container h2{
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
 main #central-container .billing{
@@ -129,5 +129,34 @@ main #central-container #cards-container .card{
     background-color: #0061ff;
 /* /test */
     width: 30%;
+}
+
+main #central-container .enterprise-container{
+    height: 200px;
+    background-color: violet;
+/* /test */
+    margin-top: 40px;
+    width: 100%;
+}
+
+main #central-container .search-partner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+main #central-container .search-partner-container .img-search-partner{
+    height: 400px;
+    background-color: bisque;
+/* /test */
+    width: 60%;
+}
+
+main #central-container .search-partner-container .text-search-partner{
+    height: 300px;
+    background-color: rebeccapurple;
+/* /test */
+    width: 35%;
 }
 /* /main */
