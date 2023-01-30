@@ -72,7 +72,7 @@ header #header-container{
 }
 
 header #header-container .title{
-    width: 800px;
+    width: 900px;
     height: 100px;
     background-color: orange;
     /* /test */
@@ -87,15 +87,47 @@ header #header-container #contents-container{
 }
 
 header #header-container #contents-container .header-contents{
-    width: 300px;
+    width: 350px;
     height: 300px;
     background-color: red;
 /* /test */
 }
 
 header #header-container #contents-container .header-img{
-    width: 500px;
+    width: 550px;
     height: 300px;
     background-color: green;
 /* /test */
 }
+/* /header */
+
+
+/* main */
+main #central-container{
+    max-width: 800px;
+    margin: auto;
+    padding-top: 100px;
+}
+
+main #central-container h2{
+    padding-bottom: 30px;
+}
+
+main #central-container .billing{
+    padding-left: 5px;
+    padding-right: 30px;
+}
+
+main #central-container #cards-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+main #central-container #cards-container .card{
+    height: 700px;
+    background-color: #0061ff;
+/* /test */
+    width: 30%;
+}
+/* /main */
