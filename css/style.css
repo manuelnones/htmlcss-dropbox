@@ -106,6 +106,7 @@ header #header-container #contents-container .header-img{
 main #central-container{
     max-width: 800px;
     margin: auto;
+    margin-bottom: 100px;
 }
 
 main #central-container h2{
