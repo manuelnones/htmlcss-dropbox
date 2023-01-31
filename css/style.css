@@ -91,7 +91,6 @@ header #header-container #contents-container{
 }
 
 header #header-container #contents-container .header-contents{
-    /* width: 30%; */
     max-width: 300px;
 }
 
@@ -107,9 +106,6 @@ header #header-container #contents-container .header-contents .fa-arrow-down{
 }
 
 header #header-container #contents-container .header-img img{
-    /* height: 360px; */
-    /* background-color: green; */
-    /* /test */
     width: 90%;
 }
 /* /header */
@@ -160,19 +156,29 @@ main #central-container #search-partner-container{
     margin-top: 100px;
 }
 
-main #central-container #search-partner-container .img-search-partner{
-    height: 400px;
-    background-color: bisque;
-/* /test */
+main #central-container #search-partner-container .img-search-partner {
     width: 60%;
 }
 
-main #central-container #search-partner-container .text-search-partner{
-    height: 300px;
-    background-color: rebeccapurple;
-/* /test */
-    width: 35%;
+main #central-container #search-partner-container .img-search-partner img{
+    width: 100%;
 }
+
+main #central-container #search-partner-container .text-search-partner{
+    width: 30%;
+}
+
+main #central-container #search-partner-container .text-search-partner #partner-btn{
+    padding: 7px 10px;
+    margin-top: 30px;
+    color: gray;
+    border: 2px solid gray;
+    background-color: white;
+}
+
+main #central-container #search-partner-container .text-search-partner p{
+    margin-top: 15px;
+}   
 
 main #central-container #dropbox-business-container{
     display: flex;
