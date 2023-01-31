@@ -78,12 +78,8 @@ header #header-container{
 }
 
 header #header-container .title{
-    width: 100%;
-    height: 100px;
-    background-color: orange;
-    /* /test */
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    font-size: 4em;
     margin-top: 80px;
 }
 
@@ -95,17 +91,26 @@ header #header-container #contents-container{
 }
 
 header #header-container #contents-container .header-contents{
-    height: 300px;
-    background-color: red;
-    /* /test */
-    width: 30%;
+    /* width: 30%; */
+    max-width: 300px;
 }
 
-header #header-container #contents-container .header-img{
-    height: 360px;
-    background-color: green;
+header #header-container #contents-container .header-contents .btn-header{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+
+header #header-container #contents-container .header-contents .fa-arrow-down{
+    font-size: 2em;
+    margin-top: 60px;
+}
+
+header #header-container #contents-container .header-img img{
+    /* height: 360px; */
+    /* background-color: green; */
     /* /test */
-    width: 70%;
+    width: 90%;
 }
 /* /header */
 
