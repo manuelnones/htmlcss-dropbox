@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: sans-serif;
+}
+
 .blue-button{
     background-color: #0061ff;
     color: #ffffff;
@@ -69,10 +73,12 @@ header #header-container{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin: auto;
+    max-width: 900px;
 }
 
 header #header-container .title{
-    min-width: 900px;
+    width: 100%;
     height: 100px;
     background-color: orange;
     /* /test */
@@ -84,20 +90,22 @@ header #header-container .title{
 header #header-container #contents-container{
     display: flex;
     margin-top: 50px;
+    margin-bottom: -60px;
+    width: 100%;
 }
 
 header #header-container #contents-container .header-contents{
-    width: 350px;
     height: 300px;
     background-color: red;
-/* /test */
+    /* /test */
+    width: 30%;
 }
 
 header #header-container #contents-container .header-img{
-    width: 550px;
-    height: 300px;
+    height: 360px;
     background-color: green;
-/* /test */
+    /* /test */
+    width: 70%;
 }
 /* /header */
 
@@ -167,11 +175,56 @@ main #central-container #dropbox-business-container{
     flex-wrap: wrap;
 }
 
-main #central-container #dropbox-business-container .options-dropbox-business{
-    height: 300px;
+main #central-container #dropbox-business-container .option-dropbox-business{
+    height: 350px;
     background-color: darkorange;
 /* /test */
     width: 30%;
     margin-bottom: 50px;
+}
+
+main #agency-use-dropbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main #agency-use-dropbox .big-square{
+    background-color: darkcyan;
+    /* /test */
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+}
+
+main #agency-use-dropbox .squares-left{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main #agency-use-dropbox .squares-left .square{
+    width: 50%;
+    height: 50%;
+    border: 1px solid black;
+}
+
+main #agency-use-dropbox .squares-right{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main #agency-use-dropbox .squares-right .square{
+    width: 50%;
+    height: 50%;
+    border: 1px solid black;
+}
+
+main #agency-use-dropbox .big-square-center{
+    flex-grow: 1;
+}
+
+main #agency-use-dropbox .rectangle-bottom{
+    height: 250px;
+    background-color: aquamarine;
+/* /test */
+    width: 100%;
 }
 /* /main */
