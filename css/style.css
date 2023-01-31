@@ -228,7 +228,7 @@ main #agency-use-dropbox .rectangle-bottom{
     width: 100%;
 }
 
-main #central-container h2{
+main #central-container #questions{
     border-bottom: 2px solid lightgray;
 }
 
