@@ -74,7 +74,7 @@ header #header-container{
     justify-content: center;
     flex-wrap: wrap;
     margin: auto;
-    max-width: 900px;
+    max-width: 1000px;
 }
 
 header #header-container .title{
@@ -247,3 +247,51 @@ main #central-container .question .special-down{
     font-size: 1.5em;
 }
 /* /main */
+
+/* footer */
+footer{
+    background-color: #000000;
+    width: 100%;
+    
+}
+
+footer #footer-container{
+    max-width: 1000px;
+    margin: auto;
+    color: #ffffff;
+}
+
+footer #footer-container #list-footer-container{
+    display: flex; 
+    justify-content: space-between; 
+    width: 100%;
+}
+
+footer #footer-container ul{
+    list-style-type: none;
+}
+
+footer #footer-container ul h3{
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+footer #footer-container ul li{
+    padding-bottom: 15px;
+}
+
+footer #footer-container hr{
+    margin-top: 90px;
+    width: 120px;
+    border: 1px solid gray;
+}
+
+footer #footer-container #linguage{
+    display: flex;
+    gap: 5px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: gray;
+}
+
+/* /footer */
