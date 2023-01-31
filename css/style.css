@@ -280,10 +280,30 @@ main #agency-use-dropbox .big-square-center{
 }
 
 main #agency-use-dropbox .rectangle-bottom{
-    height: 250px;
     background-color: #b4d0e7;
-/* /test */
+    height: 300px;
     width: 100%;
+}
+
+main #agency-use-dropbox .rectangle-bottom #rectangle-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    height: 100%;
+    margin: auto;
+}
+
+main #agency-use-dropbox .rectangle-bottom #rectangle-container strong{
+    width: 40%;
+    font-size: 1.5em;
+    color: #61082b;
+}
+
+main #agency-use-dropbox .rectangle-bottom #rectangle-container .btn-free-trial{
+    padding: 10px 30px;
+    background-color: white;
+    border: none;
 }
 
 main #central-container #questions{
