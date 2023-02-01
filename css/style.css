@@ -187,21 +187,24 @@ main #central-container #dropbox-business-container{
 }
 
 main #central-container #dropbox-business-container .option-dropbox-business{
-    height: 350px;
-    background-color: darkorange;
-/* /test */
+    height: 100%;
     width: 30%;
     margin-bottom: 50px;
 }
 
+main #central-container #dropbox-business-container .option-dropbox-business img{
+    width: 100%;
+}
+
+main #central-container #dropbox-business-container .option-dropbox-business h3{
+    padding-bottom: 20px;
+}
+
 main #agency-use-dropbox{
     display: flex;
-    flex-wrap: wrap;
 }
 
 main #agency-use-dropbox .big-square{
-    background-color: darkcyan;
-    /* /test */
     width: calc(100vw / 3);
     height: calc(100vw / 3);
 }
@@ -234,6 +237,7 @@ main #agency-use-dropbox .squares-left .square-l2{
 
 main #agency-use-dropbox .squares-left .square-l3{
     background-color: #0093ce;
+    filter: invert(1);
 }
 
 main #agency-use-dropbox .squares-left .square-l4{
@@ -274,18 +278,23 @@ main #agency-use-dropbox .squares-right .square-r4{
 }
 
 
-main #agency-use-dropbox .big-square-center{
+main #agency-use-dropbox .square-center{
     flex-grow: 1;
     background-color: #f5f5f5;
 }
 
-main #agency-use-dropbox .rectangle-bottom{
+main #agency-use-dropbox .big-square-center .container-big-sqr-center{
+    width: 90%;
+    margin: auto;
+}
+
+main .rectangle-bottom{
     background-color: #b4d0e7;
     height: 300px;
     width: 100%;
 }
 
-main #agency-use-dropbox .rectangle-bottom #rectangle-container{
+main .rectangle-bottom #rectangle-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -294,13 +303,13 @@ main #agency-use-dropbox .rectangle-bottom #rectangle-container{
     margin: auto;
 }
 
-main #agency-use-dropbox .rectangle-bottom #rectangle-container strong{
+main .rectangle-bottom #rectangle-container strong{
     width: 40%;
     font-size: 1.5em;
     color: #61082b;
 }
 
-main #agency-use-dropbox .rectangle-bottom #rectangle-container .btn-free-trial{
+main .rectangle-bottom #rectangle-container .btn-free-trial{
     padding: 10px 30px;
     background-color: white;
     border: none;
@@ -349,13 +358,14 @@ footer #footer-container ul{
     list-style-type: none;
 }
 
-footer #footer-container ul h3{
+footer #footer-container ul h4{
     padding-top: 80px;
     padding-bottom: 20px;
 }
 
 footer #footer-container ul li{
     padding-bottom: 15px;
+    color: lightgray;
 }
 
 footer #footer-container hr{
